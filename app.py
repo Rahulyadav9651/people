@@ -18,7 +18,7 @@ app.config["VIDEO_UPLOADS"] = "static/video"
 app.config["ALLOWED_VIDEO_EXTENSIONS"] = ["MP4", "MOV", "AVI", "WMV"]
 
 #secret key for the session
-app.config['SECRET_KEY'] = 'ppe_violation_detection'
+app.config['SECRET_KEY'] = 'Vehicle counting'
 
 #global variables
 frames_buffer = [] #buffer to store frames from a stream

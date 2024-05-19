@@ -26,8 +26,8 @@ is_email_allowed = False  # when user checks the email checkbox, this variable w
 send_next_email = True  # We have to wait for 10 minutes before sending another email
 # NEXT TWO STATEMENTS NEED TO BE CHANGED TO MATCH YOUR SETUP!!!
 # set the default email sender and recipient
-email_sender = 'sugandh.gupta@giindia.com'
-email_recipient = 'sugandhaquarius@gmail.com'
+email_sender = 'caml20020@glbitm.ac.in'
+email_recipient = '200192rahulkumar@gmail.com'
 # detections_summary will be used to store the detections summary report
 detections_summary = ''
 
@@ -166,7 +166,7 @@ def video_detection(conf_=0.25, frames_buffer=None):
 
                             # the violation should be in at least 5 continuous frames
                             # Check if number of persons in one frame is greater than threshold (say 3)
-                            if total_detections >= 3:
+                            if total_detections >= 1:
                                 Threshold = True
 
                         # code to send email on five continuous violations
